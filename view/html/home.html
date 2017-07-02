@@ -1,0 +1,21 @@
+<div ng-controller="homeListController" class="finance">
+    <div ng-repeat="item in list" class="finance-list">
+        <div class="left">
+            <div class="title">{{ item.typeTitle }}</div>
+            <div class="invest-time">{{ item.timeType }}</div>
+        </div>
+        <div class="right">
+            <div class="right-left">
+                <div class="top">
+                    <div>期待年回报率</div>
+                    <div>{{ item.ROI }}</div>
+                </div>
+                <div class="bottom">
+                    <div>锁定期</div>
+                    <div>{{ item.time }}</div>
+                </div>
+            </div>
+            <div class="right-right">{{item.minMoney}}起</div>
+        </div>
+    </div>
+</div>

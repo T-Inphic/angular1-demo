@@ -1,0 +1,8 @@
+<div class="login-box" ng-controller="loginController">
+    <div class="login">
+        <span class="tip" ng-if="!isRight">{{tip}}</span>
+        <div class="username"><span>用户名：</span><input type="text" ng-model="username"/></div>
+        <div class="password"><span>密码：</span><input type="password" ng-model="password"/></div>
+        <div class="login-btn-box"><a href="javascript: void(0);" class="login-btn" ng-click="beginLogin()">登录</a></div>
+    </div>
+</div>

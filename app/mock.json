@@ -1,0 +1,56 @@
+{
+    "userInfo": {
+        "username": 123,
+        "password": 123
+    },
+    "list": [
+        {   
+            "type": 1,
+            "typeTitle": "新手标",
+            "timeType": "固定期限",
+            "ROI": "9.6%",
+            "time": "1个月",
+            "minMoney": "100"
+        },
+        {
+            "type": 2,
+            "typeTitle": "精英标",
+            "timeType": "单个债券类",
+            "ROI": "9.6%",
+            "time": "3个月后可转让",
+            "minMoney": "100"
+        },
+        {
+            "type": 3,
+            "typeTitle": "宜定盈",
+            "timeType": "固定期限",
+            "ROI": "9.6%",
+            "time": "3个月后可转让",
+            "minMoney": "1000"
+        },
+        {
+            "type": 1,
+            "typeTitle": "新手标",
+            "timeType": "固定期限",
+            "ROI": "9.6%",
+            "time": "1个月",
+            "minMoney": "100"
+        },
+        {
+            "type": 2,
+            "typeTitle": "精英标",
+            "timeType": "单个债券类",
+            "ROI": "9.6%",
+            "time": "3个月后可转让",
+            "minMoney": "100"
+        },
+        {
+            "type": 3,
+            "typeTitle": "宜定盈",
+            "timeType": "固定期限",
+            "ROI": "9.6%",
+            "time": "3个月后可转让",
+            "minMoney": "1000"
+        }
+    ]
+}
